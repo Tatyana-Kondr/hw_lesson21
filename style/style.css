@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.product_cart{
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    
+}
+.products p{
+    margin: auto 20px;
+}
+.products button{
+    padding: 0 5px;
+}
+#deleteBtn{
+    margin-left: 20px;
+    position: absolute;
+    right: 5%;
+}
